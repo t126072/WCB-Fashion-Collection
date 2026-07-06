@@ -131,9 +131,15 @@ LAYOUT
 /* 閉じるボタン */
 #menu-close{
     border: 1px solid var(--light-green);
+    background-color: var(--brown);
 }
 #menu-close svg{
     fill: var(--light-green);
+}
+
+ /* ホバー時はlight-greenにする */
+#menu-close:hover {
+    background-color: var(--light-green);
 }
 
 /* スライドメニューパネル */
